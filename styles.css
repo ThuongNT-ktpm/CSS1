@@ -1,0 +1,90 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  background-color: #b8b0b0;
+  margin: 0;
+  padding: 0;
+  color: #bc8282;
+}
+
+/*Thw*/
+header {
+  background-color: #1674d2;
+  color: rgb(100, 100, 100);
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* (menu)Thw */
+nav {
+  background-color: #005bb5;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: rgb(27, 7, 7);
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #cc1a20;
+}
+
+/* Main Thw */
+main {
+  background-color: white;
+  padding: 30px;
+  max-width: 900px;
+  margin: 30px auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  font-size: 18px;
+}
+
+/*Footer Thw*/
+footer {
+  background-color: #221b1b;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+  font-size: 14px;
+  color: #555;
+}
+
+/*h1 Thw */
+h1 {
+  text-align: center;
+  font-size: 36px;
+  color: #003366;
+  margin-bottom: 20px;
+}
+
+/*Paragraphs thw*/
+p {
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+/* Thw */
+li {
+  display: inline-block;
+  width: 200px;
+  margin: 10px;
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/*Thw */
+li:hover {
+  background-color: #e0e0e0;
+  /* Transition*/
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
